@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --burgundy-dark: #4A0E17;
+    --burgundy-primary: #6B1D2F;
+    --bordeaux: #800020;
+    --bordeaux-light: #9B233A;
+    --rose-dusty: #C47B91;
+    --rose-soft: #E8C5D0;
+    --rose-blush: #F4E5EB;
+    --rose-cream: #FAF2F5;
+    --card-bg: #FDF9FB;
+    --text-primary: #380C15;
+    --text-subtle: #733645;
+  }
+}
+
+.font-script {
+  font-family: 'Alex Brush', cursive;
+}
+
+.font-serif-luxury {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-arabic {
+  font-family: 'Amiri', serif;
+}
+
+.font-ruqaa {
+  font-family: 'Aref Ruqaa', 'Amiri', serif;
+}
+
+.font-cairo {
+  font-family: 'Cairo', system-ui, sans-serif;
+}
+
+.font-sans-clean {
+  font-family: 'Cairo', system-ui, sans-serif;
+}
+
+/* Luxury Bordeaux & Rose Metallic Text Gradient */
+.bordeaux-text-gradient {
+  background: linear-gradient(135deg, #4A0E17 0%, #800020 30%, #C47B91 70%, #6B1D2F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.rose-gold-text-gradient {
+  background: linear-gradient(135deg, #800020 0%, #C47B91 35%, #F4D0DB 65%, #9B233A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Rose & Bordeaux subtle paper texture */
+.paper-texture-rose {
+  background-color: #FAF2F5;
+  background-image: radial-gradient(#E8C5D0 0.8px, transparent 0.8px);
+  background-size: 24px 24px;
+}
+
+.burgundy-shadow {
+  box-shadow: 0 10px 30px -10px rgba(107, 29, 47, 0.28);
+}
+
+.rose-glow {
+  box-shadow: 0 0 25px rgba(196, 123, 145, 0.25);
+}
+
+/* Velvet Bordeaux scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF2F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8A5B5;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #800020;
+}

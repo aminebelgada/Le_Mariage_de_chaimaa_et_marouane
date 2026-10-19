@@ -1,0 +1,6 @@
+{
+  "name": "دعوة زفاف شيماء ومروان - زفاف ملكي مغربي",
+  "description": "موقع دعوة زفاف مغربي فاخر باللغة العربية مع زفة فستانك الأبيض، عد تنازلي، تأكيد الحضور، موقع القاعة، وتخصيص كامل لمعلومات الدعوة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
